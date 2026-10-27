@@ -5,6 +5,8 @@ class Gamer:
     def __init__(self, name, age, nickname, email):
         self.name = name
         self.age = age
+        self.nickname = nickname
+        self.email = email
 
         self.games = []
 
@@ -13,7 +15,7 @@ class Gamer:
 
     # Görev 4: Mesajı değiştirin
     def introduce(self):
-        print(f"Merhaba, benim adım {self.name}, ve ben {self.age} yaşındayım.")
+        print(f"Merhaba, benim adım {self.name}, {self.age} yaşındayım. Bana her zaman {self.email} adresine eposta göndererek ulaşabilirsiniz. Beni oyunda {self.nickname} takma adıyla arayın.")
 
 
 # Oyuncu sınıfının bir örneğini oluşturma
